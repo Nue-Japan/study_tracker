@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-02-18T04:46:07.539Z",
+  "generated_at": "2026-02-18T05:00:14.869Z",
   "source_pattern": "logs/**/*.md",
   "logs": [
+    {
+      "date": "2026-01-30",
+      "duration_minutes": 90,
+      "subject": "EXAM(LPIC-101)",
+      "tags": [
+        "exam",
+        "lpic"
+      ],
+      "notes": "約50時間に加えて、最後に1h30mの試験時間",
+      "source_file": "logs/2026-01-30.md"
+    },
     {
       "date": "2026-02-18",
       "duration_minutes": 90,
@@ -15,14 +26,19 @@
     }
   ],
   "summary": {
-    "total_sessions": 1,
-    "total_minutes": 90,
-    "total_hours": 1.5,
-    "study_days": 1,
+    "total_sessions": 2,
+    "total_minutes": 180,
+    "total_hours": 3,
+    "study_days": 2,
     "average_minutes_per_study_day": 90
   },
   "trends": {
     "daily": [
+      {
+        "date": "2026-01-30",
+        "total_minutes": 90,
+        "total_hours": 1.5
+      },
       {
         "date": "2026-02-18",
         "total_minutes": 90,
@@ -30,6 +46,12 @@
       }
     ],
     "by_subject": [
+      {
+        "subject": "EXAM(LPIC-101)",
+        "total_minutes": 90,
+        "sessions": 1,
+        "total_hours": 1.5
+      },
       {
         "subject": "JavaScript",
         "total_minutes": 90,
