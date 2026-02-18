@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study Tracker</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <h1>Study Tracker</h1>
+        <p>Automated progress dashboard from Markdown logs.</p>
+      </header>
+
+      <section class="metrics" id="metrics">
+        <article class="metric-card">
+          <h2>Total Hours</h2>
+          <p id="totalHours">-</p>
+        </article>
+        <article class="metric-card">
+          <h2>Total Sessions</h2>
+          <p id="totalSessions">-</p>
+        </article>
+        <article class="metric-card">
+          <h2>Study Days</h2>
+          <p id="studyDays">-</p>
+        </article>
+      </section>
+
+      <section class="chart-grid">
+        <article class="chart-card">
+          <h2>Daily Study Hours</h2>
+          <canvas id="dailyChart"></canvas>
+        </article>
+        <article class="chart-card">
+          <h2>Hours by Subject</h2>
+          <canvas id="subjectChart"></canvas>
+        </article>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+  </html>

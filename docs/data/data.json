@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-02-18T04:46:07.539Z",
+  "source_pattern": "logs/**/*.md",
+  "logs": [
+    {
+      "date": "2026-02-18",
+      "duration_minutes": 90,
+      "subject": "JavaScript",
+      "tags": [
+        "frontend",
+        "chart"
+      ],
+      "notes": "Built a study tracker dashboard with Chart.js and data aggregation logic.",
+      "source_file": "logs/2026-02-18.md"
+    }
+  ],
+  "summary": {
+    "total_sessions": 1,
+    "total_minutes": 90,
+    "total_hours": 1.5,
+    "study_days": 1,
+    "average_minutes_per_study_day": 90
+  },
+  "trends": {
+    "daily": [
+      {
+        "date": "2026-02-18",
+        "total_minutes": 90,
+        "total_hours": 1.5
+      }
+    ],
+    "by_subject": [
+      {
+        "subject": "JavaScript",
+        "total_minutes": 90,
+        "sessions": 1,
+        "total_hours": 1.5
+      }
+    ]
+  }
+}
